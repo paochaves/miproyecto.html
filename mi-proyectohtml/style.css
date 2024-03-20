@@ -1,9 +1,80 @@
 body {
-    background-color:f5cac3
-}
-div {
-    color: aqua;
-}
+    margin: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
 p {
-    color: darkorchid;
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 200;
+  }
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ul {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.display {
+        display: flex;
+    }
+.display1 {
+    display: flex;
+    gap: 50px; 
+    background-color: rgba(202, 179, 105, 0.562);
+    }
+.display2 {
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    background-color: rgba(202, 179, 105, 0.562);
+    }
+.display3 {
+    gap: 50px; 
+    background-color:  rgba(202, 179, 105, 0.562);
 }
+.bordes {
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    }
+th, td {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #000;
+    }
+.contenedor {
+    display: flex; 
+    align-items: center;
+        }
+.tabla {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+h3 {
+    font-family: serif ;
+    }
+    @media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        }
+    }
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+        }
+      }
+    @media screen and (min-width: 1025px) {
+        body {
+        font-size: 20px;
+        }
+      }
+      .social-icon {
+        font-size: 24px; /* Ajusta el tamaño según tus necesidades */
+        margin-right: 10px; /* Espaciado entre los íconos */
+      }
