@@ -1,12 +1,7 @@
 body {
-    margin: 40px;
+    margin: 0px;
     font-size: 16px;
     line-height: 1.5;
-    }
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
     }
        ol {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,7 +24,8 @@ body {
         background-color: rgba(202, 179, 105, 0.562);
         }
     .display3 {
-        gap: 50px; 
+        display: flex;
+        gap: 15px; 
         background-color:  rgba(202, 179, 105, 0.562);
         border-radius: 17px; 
         padding-left: 9px; 
@@ -48,6 +44,7 @@ body {
     .contenedor {
         display: flex; 
         align-items: center;
+        gap: 20px;
         }
     .tabla {
         border-collapse: collapse;
